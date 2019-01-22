@@ -1,96 +1,54 @@
 ================
-Turbulenz Engine
+Dazyners Studio
 ================
 
-Turbulenz is an HTML5 game engine and server-side APIs available in JavaScript and TypeScript for building and distributing 2D and 3D games that run on platforms that support HTML5 features such as modern browsers without the need for plugins.
+Dazyners is an HTML5 game engine and server-side APIs available in JavaScript and TypeScript for building and distributing 2D and 3D games that run on platforms that support HTML5 features such as modern browsers without the need for plugins.
 
 .. contents::
     :local:
 
 
-Examples using the Turbulenz Engine
+Examples using the Dazyners Studio
 ===================================
 
 Games
 -----
 
-* `Polycraft <https://turbulenz.com/games/polycraft>`__ - 3D
-* `Save the day <https://turbulenz.com/games/save-the-day>`__ - 2D
-* `Denki Blocks! <https://turbulenz.com/games/denkiblocks>`__ - 2D
-* `Denki Word Quest <https://turbulenz.com/games/denkiwordquest>`__ - 2D
-* `Score Rush <https://turbulenz.com/games/scorerush>`__ - 2D
-* `Score Rush MP <https://turbulenz.com/games/scorerush-mp>`__ - multiplayer
-* `Space Ark <https://turbulenz.com/games/space-ark>`__ - 3D
-* `Apathy <http://apathy.plankhead.com/>`__ - `src <https://github.com/Zacqary/Apathy>`__ - 2D
-* Salty Dogs - `src <https://github.com/zacqary/salty-dogs>`__
-* `Gargantia Sky Courier <http://fly.gargantia.jp>`__ - `src <https://github.com/turbulenz/gargantia_editor>`__ - 3D
+* - 3D
+* - multiplayer
 
 Apps
 ----
 
-* Sample app - `src <apps/sampleapp/scripts/sampleappmain.js>`__
-* Touch, keyboard, mouse and pad controller input app - `src <apps/inputapp/tsscripts/inputapp>`__
-* Viewer - `src <apps/viewer/scripts/viewer.js>`__
-* Realtime multiplayer worm app - `src <apps/multiworm/tsscripts/worm>`__
-* Asynchronous turn based multiplayer tic-tac-toe app - `src <apps/tictactoe/tsscripts/tictactoe>`__
+
 
 Prototyping
 -----------
-
-* Prototyping basic app - `jsfiddle <http://jsfiddle.net/jamesaustin/WF47C/>`__
-* Prototyping sample app - `src <apps/protolibsampleapp/scripts/protolibsampleapp.js>`__
-* Prototyping template app - `src <apps/protolibtemplateapp/scripts/app.js>`__
 
 Samples
 -------
 
 * Setup:
 
-  * `Device Initialization <http://biz.turbulenz.com/sample_assets/device_initialization.canvas.release.html>`__ - `src <samples/tsscripts/templates/device_initialization.ts>`__
-  * `Basic Loop <http://biz.turbulenz.com/sample_assets/basic_loop.canvas.release.html>`__ - `src <samples/tsscripts/templates/basic_loop.ts>`__
+ 
 
 * 2D Rendering:
 
-  * `2D Canvas <http://biz.turbulenz.com/sample_assets/2dcanvas.canvas.release.html>`__ - `src <samples/tsscripts/templates/2dcanvas.ts>`__ - `jsfiddle <http://jsfiddle.net/jamesaustin/HRAw7/>`__
-  * `Draw2D <http://biz.turbulenz.com/sample_assets/draw2d.canvas.release.html>`__ - `src <samples/tsscripts/templates/draw2d.ts>`__
-  * `TextureEffects <http://biz.turbulenz.com/sample_assets/textureeffects.canvas.release.html>`__ - `src <samples/tsscripts/templates/textureeffects.ts>`__
-  * `Immediate Mode Rendering <http://biz.turbulenz.com/sample_assets/immediate_mode_rendering.canvas.release.html>`__ - `src <samples/tsscripts/templates/immediate_mode_rendering.ts>`__
-  * Loading - `src <samples/tsscripts/templates/loading.ts>`__
-  * SVG - `src <samples/tsscripts/templates/svg.ts>`__
+ 
 
 * 3D Rendering:
 
-  * `Camera <http://biz.turbulenz.com/sample_assets/camera.canvas.release.html>`__ - `src <samples/tsscripts/templates/camera.ts>`__
-  * `Material <http://biz.turbulenz.com/sample_assets/material.canvas.release.html>`__ - `src <samples/tsscripts/templates/material.ts>`__
-  * `Forward rendering <http://biz.turbulenz.com/sample_assets/forward_rendering.canvas.release.html>`__ - `src <samples/tsscripts/templates/forward_rendering.ts>`__
-  * `Morphing <http://biz.turbulenz.com/sample_assets/morphing.canvas.release.html>`__ - `src <samples/tsscripts/templates/morphing.ts>`__
-  * `Post effects <http://biz.turbulenz.com/sample_assets/postfx.canvas.release.html>`__ - `src <samples/tsscripts/templates/postfx.ts>`__
-  * `Particles <http://biz.turbulenz.com/sample_assets/particles.canvas.release.html>`__ - `src <samples/tsscripts/templates/particles.ts>`__
-  * Deferred Rendering - `src <samples/tsscripts/templates/deferred_rendering.ts>`__
-  * Load model - `src <samples/tsscripts/templates/load_model.ts>`__
-  * Scene loading - `src <samples/tsscripts/templates/scene_loading.ts>`__
+  
 
 * Animation:
 
-  * `Animation <http://biz.turbulenz.com/sample_assets/animation.canvas.release.html>`__ - `src <samples/tsscripts/templates/animation.ts>`__
-  * `Multiple animations <http://biz.turbulenz.com/sample_assets/multiple_animations.canvas.release.html>`__ - `src <samples/tsscripts/templates/multiple_animations.ts>`__
 
 * 2D Physics:
 
-  * `2D Physics <http://biz.turbulenz.com/sample_assets/physics2d.canvas.release.html>`__ - `src <samples/tsscripts/templates/physics2d.ts>`__
-  * `2D Physics constraints <http://biz.turbulenz.com/sample_assets/physics2d_constraints.canvas.release.html>`__ - `src <samples/tsscripts/templates/physics2d_constraints.ts>`__
-  * `2D Physics callbacks <http://biz.turbulenz.com/sample_assets/physics2d_callbacks.canvas.release.html>`__ - `src <samples/tsscripts/templates/physics2d_callbacks.ts>`__
 
 * 3D Physics:
 
-  * `3D Physics <http://biz.turbulenz.com/sample_assets/physics.canvas.release.html>`__ - `src <samples/tsscripts/templates/physics.ts>`__
-  * `3D Physics <benchmark(http://biz.turbulenz.com/sample_assets/physics_benchmark.canvas.release.html>`__ - `src <samples/tsscripts/templates/physics_benchmark.ts>`__
-  * `3D Physics collision mesh <http://biz.turbulenz.com/sample_assets/physics_collisionmesh.canvas.release.html>`__ - `src <samples/tsscripts/templates/physics_collisionmesh.ts>`__
-  * 3D Physics constraints - `src <samples/tsscripts/templates/physics_constraints.ts>`__
-
 * Sound:
-
-  * `Sound <http://biz.turbulenz.com/sample_assets/sound.canvas.release.html>`__ - `src <samples/tsscripts/templates/sound.ts>`__
 
 * Video:
 
@@ -419,7 +377,7 @@ High-level API
   - Client-side manipulation of multiplayer session messages.
   - Simulates spikes in network traffic.
 
-Turbulenz Service API
+Dazyners Studio Service API
 ---------------------
 
 **Leaderboards**
@@ -499,12 +457,12 @@ Turbulenz Service API
 - Uniquely identifiable gamesession.
 - Service availability notification.
 
-What Are the Design Goals of the Turbulenz Engine
+What Are the Design Goals of the Dazyners Studio
 =================================================
 
-The main design goals of the Turbulenz Engine are performance, modularity and customizability. Users of the engine should be able to build any kind of game without limitations, in an efficient manner and with an end product that performs optimally when loading and during play.
+The main design goals of the Dazyners Studio are performance, modularity and customizability. Users of the engine should be able to build any kind of game without limitations, in an efficient manner and with an end product that performs optimally when loading and during play.
 
-To achieve this target the Turbulenz team followed these rules when writing code:
+To achieve this target the Dazyners Studio team followed these rules when writing code:
 
 **Modularity**
 
@@ -562,19 +520,10 @@ To achieve this target the Turbulenz team followed these rules when writing code
 History
 =======
 
-The Engine was created and is maintained by `Turbulenz Limited <http://biz.turbulenz.com>`__ and was open sourced
-in April 2013.
-
-The latest release is 1.3.2 which is tagged in the repository or a tarball/zip can be can be downloaded from
-`here <https://github.com/turbulenz/turbulenz_engine/archive/release_1.3.2.tar.gz>`__
-
-A full history of changes can be found in the `Changelog <docs/source/changelog.rst>`__
-
-
 Pre-Requisites
 ==============
 
-The pre-requisites for the open source version of the Turbulenz Engine allowing you to use the various
+The pre-requisites for the open source version of the Dazyners Studio allowing you to use the various
 commands are
 
 - Python 2.7.x.
@@ -595,8 +544,8 @@ commands are
         $ virtualenv --version
         1.9.1
 
-- UglifyJS, turbulenz_build, DefinitelyTyped and NvTriStrip which are included via Git submodules contained
-  within the Turbulenz Engine repository.
+- UglifyJS, Dazyners Studio, DefinitelyTyped and NvTriStrip which are included via Git submodules contained
+  within the Dazyners Studio repository.
 
 - Additional Python packages which will be automatically installed during the initial environment creation
   using a Python package manager.
@@ -628,58 +577,9 @@ Pre-requisites for building the tools cgfx2json and NvTriStrip via ``python mana
 Setup Guide
 ===========
 
-There are two ways to get up and running with the Turbulenz Engine, you can downloaded a packaged fully QA'd
-snapshot release from the `Turbulenz Hub <https://hub.turbulenz.com>`__. These installers are available for
-Windows, Mac OSX and Linux and will install all the required packages and dependencies to get started,
-a full guide can be found at `<http://docs.turbulenz.com/installing.html>`__
-
-*Note: SDK versions prior to 0.26.0 were released under a non open source license.*
-
-If you want to run with the latest version or would like to contribute to the open source project the steps for
-getting setup are included below. Use of the open source repository is tested against Windows, Mac OSX and Linux
-but may also work on other unix-like operating systems.
-
 Setup
 -----
 
-1. Clone the repository `<http://github.com/turbulenz/turbulenz_engine>`__ (or if you wish you can fork the repository
-   on GitHub and clone that). To clone the repository maintained by Turbulenz use
-   ::
-
-        $ git clone git://github.com/turbulenz/turbulenz_engine.git
-
-2. The Turbulenz Engine submodules the following technology in the external folder
-
-   + tzbuild: https://github.com/turbulenz/turbulenz_build
-   + DefinitelyTyped: https://github.com/borisyankov/DefinitelyTyped
-   + UglifyJS: https://github.com/mishoo/UglifyJS.git
-
-   Initialize the Git submodules with
-   ::
-
-        $ git submodule update --init
-
-3. Check you have the `pre-requisites`_ installed
-
-4. From the cloned repository create a VirtualEnv environment to install the required Python packages and NodeJS,
-   allowing you to use all the features of the Turbulenz Engine. Note if Python is not on your shell's path you
-   will need to specify the full path for this first command.
-   ::
-
-        $ python manage.py env
-
-5. Activate the environment in your shell.
-   ::
-
-        $ source env/bin/activate - for bash and similar shells
-        > env\scripts\activate.bat - for Windows
-
-6. If you want to move onto the API tutorial section next then your final command is to build the JavaScript sources
-   from the TypeScript sources. The next section will detail some of the additional actions you can perform or you
-   can move onto `Getting Started With The API`_
-   ::
-
-        $ python manage.py jslib
 
 Working With The Open Source Project
 ------------------------------------
@@ -690,33 +590,33 @@ on unix shells. Running the script with ``--help`` will give a list of commands 
 described below. All the commands other than the env command expect to have the VirtualEnv environment activated
 as described in the setup section.
 
-- **JavaScript Sources** - The Turbulenz Engine source is written in TypeScript. To generate the JavaScript version
+- **JavaScript Sources** - The Dazyners Studio source is written in TypeScript. To generate the JavaScript version
   of the engine source run the command
   ::
 
     $ python manage.py jslib
 
-- **Tools** - The Turbulenz Engine includes a number of Python tools which are installed during the env command.
+- **Tools** - The Dazyners Studio includes a number of Python tools which are installed during the env command.
   In addition the Engine includes a CGFX shader conversion tool which can be built with the following command.
   See the `pre-requisites`_ section for details of required compiler toolchains.
   ::
 
     $ python manage.py tools
 
-- **Documentation** - The Turbulenz Engine documentation is based on restructured text sources. To build the html
+- **Documentation** - The Dazyners Studio documentation is based on restructured text sources. To build the html
   documentation run the command
   ::
 
     $ python manage.py docs
 
-- **Samples** - Various samples are included with the Turbulenz Engine. These can be built from their TypeScript
+- **Samples** - Various samples are included with the Dazyners Studio. These can be built from their TypeScript
   sources with the command below. This generates a set of html files, JavaScript and asset JSON files which can
-  be served with a web server such as the Turbulenz Local Development Server.
+  be served with a web server such as the Dazyners Studio Local Development Server.
   ::
 
     $ python manage.py samples
 
-- **Applications** - The Turbulenz Engine project includes a few larger applications and some templates for building
+- **Applications** - The Dazyners Studio project includes a few larger applications and some templates for building
   your own application. These can be found in the apps folder, and can be built with the command
   ::
 
@@ -729,34 +629,34 @@ as described in the setup section.
 
 - **Command Line Tools** - Various command line tools for processing code and assets are installed as part of the
   virtual environment. These are available at the command line e.g. running ``dae2json`` will execute the dae2json
-  tool used to convert Collada assets to a Turbulenz Engine JSON asset format. See the
-  `tools <http://docs.turbulenz.com/tools/index.html>`__ section in the documentation for more details on the tools.
+  tool used to convert Collada assets to a Dazyners Studio Engine JSON asset format. See the
+  `tools <http://docs.Dazyners Studio.com/tools/index.html>`__ section in the documentation for more details on the tools.
 
 - **Local Development Server** - Setting up the environment also includes a locally hosted web server which can be
   used for development of HTML5 games and applications. See the
-  `Local Server <https://github.com/turbulenz/turbulenz_local>`__ repository for more details.
+  `Local Server <https://github.com/DazynersStudio/Dazyners>`__ repository for more details.
 
 
 Getting Started With The API
 ============================
 
-To try the Turbulenz APIs requires only a text editor and a browser such as Google Chrome or Mozilla Firefox.
-Create an HTML file with the following content and place it in the root of the Turbulenz directory::
+To try the Dazyners Studio APIs requires only a text editor and a browser such as Google Chrome or Mozilla Firefox.
+Create an HTML file with the following content and place it in the root of the Dazyners Studio directory::
 
     <html>
     <head>
-        <title>Turbulenz - API - Clear Screen Example</title>
+        <title>Dazyners Studio - API - Clear Screen Example</title>
         <script src="jslib/debug.js"></script>
-        <script src="jslib/webgl/turbulenzengine.js"></script>
+        <script src="jslib/webgl/DazynersStudio.js"></script>
         <script src="jslib/webgl/graphicsdevice.js"></script>
     </head>
     <body>
         <canvas id="canvas" width="640px" height="480px"/>
         <script>
-            TurbulenzEngine = WebGLTurbulenzEngine.create({
+            Dazyners Studio = WebGLDazynersEngine.create({
                 canvas: document.getElementById("canvas")
             });
-            var graphicsDevice = TurbulenzEngine.createGraphicsDevice({});
+            var graphicsDevice = DazynersStudio.createGraphicsDevice({});
 
             var bgColor = [1.0, 1.0, 0.0, 1.0];
 
@@ -767,41 +667,41 @@ Create an HTML file with the following content and place it in the root of the T
                 }
             }
 
-            TurbulenzEngine.setInterval(update, 1000 / 60);
+            DazynersEngine.setInterval(update, 1000 / 60);
         </script>
     </body>
     </html>
 
-After defining a <canvas> element of 640x480 pixels, this code will create the TurbulenzEngine and request the GraphicDevice module.
+After defining a <canvas> element of 640x480 pixels, this code will create the Dazyners Studio and request the GraphicDevice module.
 Using an update function called at a frequency of 60fps, the GraphicsDevice will clear the screen yellow.
 To run the example, open the HTML file in your browser.
 You should see a yellow rectangle.
 
 To use assets such as images you will need to host a HTML file and assets on a webserver.
-Any webserver will work, a quick way to try is to activate the Turbulenz environment in the root of the Turbulenz directory and run::
+Any webserver will work, a quick way to try is to activate the Dazyners Studio environment in the root of the Dazyners Studio directory and run::
 
     python -m SimpleHTTPServer
 
-This command will host the contents of the Turbulenz directory on your machine as a webserver.
+This command will host the contents of the Dazyners Studio directory on your machine as a webserver.
 
 To demonstrate loading an asset you can try loading an image file and drawing it as a textured sprite using the Draw2D API.
-Create another HTML file with the following content and also place it in the root of the Turbulenz directory::
+Create another HTML file with the following content and also place it in the root of the TuDazyners Studiorbulenz directory::
 
     <html>
     <head>
-        <title>Turbulenz - API - Textured Sprite Example</title>
+        <title>Dazyners Studio - API - Textured Sprite Example</title>
         <script src="jslib/debug.js"></script>
-        <script src="jslib/webgl/turbulenzengine.js"></script>
+        <script src="jslib/webgl/DazynersStudio.js"></script>
         <script src="jslib/webgl/graphicsdevice.js"></script>
         <script src="jslib/draw2d.js"></script>
     </head>
     <body>
         <canvas id="canvas" width="640px" height="480px"/>
         <script>
-            TurbulenzEngine = WebGLTurbulenzEngine.create({
+            DazynersStudio = WebGLDazynersStudio.create({
                 canvas: document.getElementById("canvas")
             });
-            var graphicsDevice = TurbulenzEngine.createGraphicsDevice({});
+            var graphicsDevice = DazynersStudio.createGraphicsDevice({});
             var draw2D = Draw2D.create({
                 graphicsDevice: graphicsDevice
             });
@@ -849,7 +749,7 @@ Create another HTML file with the following content and also place it in the roo
                 }
             }
 
-            TurbulenzEngine.setInterval(update, 1000 / 60);
+            DazynersStudio.setInterval(update, 1000 / 60);
         </script>
     </body>
     </html>
@@ -865,7 +765,7 @@ Make sure you have run the *tools* command to build the tools for your platform:
 
 *Note: The requirements for building the tools is different per platform. See the* `Pre-Requisites`_ *section.*
 
-For this example you should use the `Protolib <http://docs.turbulenz.com/protolib/protolib_api.html>`__ library, which is ideal for prototyping games using Turbulenz.
+For this example you should use the `Protolib <http://docs.DazynersStudio.com/protolib/protolib_api.html>`__ library, which is ideal for prototyping games using Dazyners Studio.
 You will need these assets::
 
     - models/duck.dae
@@ -889,24 +789,24 @@ You will need these assets::
     - textures/opensans-64_0.png
     - textures/opensans-128_0.png
 
-Copy this text into a file called "deps.yaml" and place it in the root of the Turbulenz directory.
-Having built the tools you can now run this command with the Turbulenz environment activated::
+Copy this text into a file called "deps.yaml" and place it in the root of the Dazyners Studio directory.
+Having built the tools you can now run this command with the Dazyners Studio environment activated::
 
     $ python scripts/buildassets.py --root . --assets-path assets
 
 This will build the assets listed in the deps.yaml and output a "staticmax" directory and "mapping_table.json" file containing the processed assets and a mapping to them for the webserver.
 When a library tries to request one of these files, it will be able to find it in the staticmax directory.
-Now you can create the mesh example HTML file and place it at the root of the Turbulenz directory::
+Now you can create the mesh example HTML file and place it at the root of the Dazyners Studio directory::
 
     <html>
     <head>
-        <title>Turbulenz - API - Textured Mesh Example</title>
+        <title>Dazyners Studio - API - Textured Mesh Example</title>
         <script>
-            var TurbulenzEngine = {};
+            var DazynersStudio = {};
         </script>
         <script src="jslib/debug.js"></script>
         <script src="jslib/vmath.js"></script>
-        <script src="jslib/webgl/turbulenzengine.js"></script>
+        <script src="jslib/webgl/DazynersStudio.js"></script>
         <script src="jslib/webgl/graphicsdevice.js"></script>
         <script src="jslib/webgl/inputdevice.js"></script>
         <script src="jslib/webgl/sounddevice.js"></script>
@@ -937,8 +837,8 @@ Now you can create the mesh example HTML file and place it at the root of the Tu
         <script src="jslib/utilities.js"></script>
         <script src="jslib/vertexbuffermanager.js"></script>
 
-        <script src="jslib/services/turbulenzbridge.js"></script>
-        <script src="jslib/services/turbulenzservices.js"></script>
+        <script src="jslib/services/dazynersbridge.js"></script>
+        <script src="jslib/services/dazynersservices.js"></script>
         <script src="jslib/services/gamesession.js"></script>
         <script src="jslib/services/mappingtable.js"></script>
 
@@ -956,7 +856,7 @@ Now you can create the mesh example HTML file and place it at the root of the Tu
     <body>
         <canvas id="canvas" width="640px" height="480px"/>
         <script>
-            TurbulenzEngine = WebGLTurbulenzEngine.create({
+            Dazyners Studio = WebGLDazynersStudio.create({
                 canvas: document.getElementById("canvas")
             });
             var mathDevice = null;
@@ -1002,52 +902,34 @@ Now you can create the mesh example HTML file and place it at the root of the Tu
                 }
             }
 
-            TurbulenzEngine.setInterval(update, 1000 / 60);
+            DazynersStudio.setInterval(update, 1000 / 60);
         </script>
     </body>
     </html>
 
-This file is quite similar to the previous examples, but it requires a few more Turbulenz libraries to run.
+This file is quite similar to the previous examples, but it requires a few more Dazyners Studio libraries to run.
 This time you should see a spinning duck with a yellow texture on a white background and lit by a static point light.
 
-For more information on how to build your own assets see the `assets section <http://docs.turbulenz.com/starter/getting_started_guide.html#assets>`__ in the getting started guide.
+For more information on how to build your own assets see the `assets section <http://docs.DazynersStudio.com/starter/getting_started_guide.html#assets>`__ in the getting started guide.
 
-If you would like to learn more or work through this example step-by-step (with troubleshooting hints), see the `Getting Started Guide <http://docs.turbulenz.com/starter/getting_started_guide.html>`__ in the documentation.
+If you would like to learn more or work through this example step-by-step (with troubleshooting hints), see the `Getting Started Guide <http://docs.DazynersStudio.com/starter/getting_started_guide.html>`__ in the documentation.
 
 For more information on the various APIs, see the following links:
-
-* `Low-level API <http://docs.turbulenz.com/jslibrary_api/low_level_api.html>`__, `2D Physics API <http://docs.turbulenz.com/jslibrary_api/physics2d_api.html>`__, `3D Physics API <http://docs.turbulenz.com/jslibrary_api/physics3d_api.html>`__
-* `High-level API <http://docs.turbulenz.com/jslibrary_api/high_level_api.html>`__
-* `Turbulenz Services API <http://docs.turbulenz.com/turbulenz_services/index.html>`__
-* `Protolib API <http://docs.turbulenz.com/protolib/protolib_api.html>`__
 
 
 Documentation
 =============
 
-Full documentation for the Turbulenz Engine can be found at `<http://docs.turbulenz.com/index.html>`__
-
-This documentation is built from the source restructured text in the docs/source folder of the repository, the latest
-version online is maintained from the latest release tag in the repository. If you wish to build up to date
-documentation follow the setup guide and the run the ``manage.py docs`` command, this will generate html docs in the
-build/docs/html folder.
 
 
 Known Issues
 ============
 
-The following known issues exist with using the open source repository version of the Turbulenz Engine,
-additional known issues also existing in the SDK releases of the engine can be found here
-`<http://docs.turbulenz.com/known_issues/index.html>`__
-
-* The application and JavaScript build process will currently fail if the repository is cloned to a path with
-  spaces in it.
-
 
 Licensing
 =========
 
-The Turbulenz Engine is licensed under the `MIT license <LICENSE>`__
+The Dazyners Studio is licensed under the `MIT license <LICENSE>`__
 
 
 Contributing
@@ -1055,26 +937,8 @@ Contributing
 
 Our contributors are listed `here <docs/source/contributors.rst>`__
 
-Contributions are always encouraged whether they are small documentation tweaks, bug fixes or suggestions for larger
-changes. You can check the `issues <http://github.com/turbulenz/turbulenz_engine/issues>`__ or `discussion forums
-<https://groups.google.com/group/turbulenz-engine-users>`_ first to see if anybody else is undertaking similar changes.
-
-If you'd like to contribute any changes simply fork the project on Github and send us a pull request or send a Git
-patch to the discussion forums detailing the proposed changes. If accepted we'll add you to the list of contributors.
-
-We include a .pylintrc file in the repository which allows you to check your code conforms to our standards. Our
-documentation is built from restructured text sources in the docs folder so please consider how your changes may affect
-the documentation.
-
-Note: by contributing code to the Turbulenz Engine project in any form, including sending a pull request via Github,
-a code fragment or patch via private email or public discussion groups, you agree to release your code under the
-terms of the MIT license that you can find in the `LICENSE <LICENSE>`__ file included in the source distribution.
+Contributions are always encouraged whether they are small documentation tweaks
 
 
 Links
 =====
-
-| Turbulenz game site - `turbulenz.com <https://turbulenz.com>`__
-| Turbulenz developer service and SDK download - `hub.turbulenz.com <https://hub.turbulenz.com>`__
-| Documentation for this module and the SDK - `docs.turbulenz.com <http://docs.turbulenz.com>`__
-| About Turbulenz - `biz.turbulenz.com <http://biz.turbulenz.com>`__
